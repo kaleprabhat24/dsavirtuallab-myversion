@@ -28,6 +28,65 @@ Watch this video to understand the lab's purpose and features:
 
 ---
 
+## Gif
+
+React App - Brave 2025-05-28 19-16-51 (2).gif
+
+---
+
+## 🖼️ Project Screenshots
+
+Here are some snapshots of our project in action:
+
+<p float="left">
+  <a href="![Screenshot 2025-05-28 182518](https://github.com/user-attachments/assets/05302408-fbf3-4b95-b2bb-ea556b99e4c1)
+" target="_blank">
+    <img src="![Screenshot 2025-05-28 182518](https://github.com/user-attachments/assets/252ee393-b31e-4a9a-9901-02a350e8bc73)
+" width="200" />
+  </a>
+  <a href="![Screenshot 2025-05-28 182544](https://github.com/user-attachments/assets/472b3996-eaf8-4479-ac72-76aff4681f06)
+" target="_blank">
+    <img src="![Screenshot 2025-05-28 182544](https://github.com/user-attachments/assets/ad4bcc1b-c92b-463e-9561-0307f827e6bc)
+" width="200" />
+  </a>
+  <a href="![Screenshot 2025-05-28 182626](https://github.com/user-attachments/assets/cd3d7196-5c2d-443b-b661-89e1d8accd85)
+" target="_blank">
+    <img src="![Screenshot 2025-05-28 182626](https://github.com/user-attachments/assets/2be75dbe-06eb-4774-bc3a-76183783994d)
+" width="200" />
+  </a>
+  <a href="![Screenshot 2025-05-28 182757](https://github.com/user-attachments/assets/4ccd6141-e47d-41b5-a873-c49bc24d3c97)
+" target="_blank">
+    <img src="![Screenshot 2025-05-28 182757](https://github.com/user-attachments/assets/cd03dfbe-8a45-4a11-a110-03d0297e7cfd)
+" width="200" />
+  </a>
+</p>
+
+<p float="left">
+  <a href="![Screenshot 2025-05-28 182826](https://github.com/user-attachments/assets/ee6f7596-3b39-4789-afb8-0f33ff371fc7)
+" target="_blank">
+    <img src="![Screenshot 2025-05-28 182826](https://github.com/user-attachments/assets/bbe7e087-306b-4757-b5cc-464599ba5c12)
+" width="200" />
+  </a>
+  <a href="![Screenshot 2025-05-28 182935](https://github.com/user-attachments/assets/fbe2715f-270c-42be-a2cd-b018a0533d34)
+" target="_blank">
+    <img src="![Screenshot 2025-05-28 182935](https://github.com/user-attachments/assets/0fd2ddef-a2a8-445a-a763-7f5348be379f)
+" width="200" />
+  </a>
+  <a href="![Screenshot 2025-05-28 183013](https://github.com/user-attachments/assets/fa4772b6-784b-477a-afa7-23359df25891)
+ target="_blank">
+    <img src="![Screenshot 2025-05-28 183013](https://github.com/user-attachments/assets/69bb5c1f-6c83-4b08-a69a-12c5b339de17)
+" width="200" />
+  </a>
+  <a href="![Screenshot 2025-05-28 183609](https://github.com/user-attachments/assets/e24c179e-044c-4eaf-a871-52622a5a3788)
+" target="_blank">
+    <img src="![Screenshot 2025-05-28 183609](https://github.com/user-attachments/assets/9530db39-1c39-4ea8-88d2-e5bb722e4760)
+" width="200" />
+  </a>
+</p>
+
+
+
+---
 ## 🧪 Explore the Lab
 
 Join us in enhancing your understanding of essential algorithms and data structures through:
@@ -88,16 +147,7 @@ In the project directory, you can run:
 
 Refer to the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started) for more details.
 
----
 
-## 🖼️ Project Screenshots
-
-Here are some snapshots of our project in action:
-
-
-
-
----
 
 ## 📚 Learn More
 
