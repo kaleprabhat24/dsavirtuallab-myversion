@@ -1,123 +1,70 @@
-Here is your updated `README.md` written in **GitHub-flavored Markdown**. It includes proper formatting, sections, code blocks, an embedded YouTube video (as a link since GitHub doesn't support `<iframe>`), and a placeholder for your project images:
-
----
-
-````markdown
-# 🌐 Virtual Lab: Data Structures and Algorithms
-
-## 🏫 About the Virtual Lab
-
-This virtual lab is developed by students of **AIML at Ramdeobaba University, Nagpur**. It focuses on data structures and algorithms, providing an interactive and engaging learning experience.
-
----
-
-## 🚀 How to Open and Run
-
-To start the **frontend**:
-
-```bash
-cd frontend
-npm install
-npm start
-````
-
-Then, open [http://localhost:3000](http://localhost:3000) in your browser to begin using the lab.
-
----
-
-## 🎥 Introductory Video
-
-Watch this video to understand the lab's purpose and features:
-[![Watch the video](https://img.youtube.com/vi/QUoqiQzhfWk/0.jpg)](https://www.youtube.com/watch?v=QUoqiQzhfWk)
-
----
-
-## 🧪 Explore the Lab
-
-Join us in enhancing your understanding of essential algorithms and data structures through:
-
-* 🧠 Interactive tutorials
-* 📊 Visualization tools
-* 🛠️ Hands-on coding practice
-
----
-
-## 🎯 Lab Objectives
-
-* Understand fundamental data structures such as arrays, linked lists, stacks, and queues
-* Learn algorithms for searching and sorting
-* Gain hands-on experience with algorithm design and implementation
-* Analyze the efficiency and complexity of algorithms
-* Apply concepts to real-world problem-solving
-
----
-
-## 🖥️ Backend Info
-
-The backend server is set up using **Node.js and Express**. It handles API requests and interacts with data logic components.
-
-To run the **backend**:
-
-```bash
-cd backend
-npm install
-npm start
-```
-
-The server will typically run at [http://localhost:5000](http://localhost:5000).
-
----
-
-## 🎨 Frontend Info
-
-The frontend is built using **React** and communicates with the backend to provide an interactive user interface with algorithm visualizations.
-
-* 📁 Directory: `/frontend`
-* 🔧 Key Tech: React, JSX, CSS
-
----
-
-## 🧰 Getting Started with Create React App
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
-* `npm start` – Runs the app in development mode
-* `npm test` – Launches the test runner
-* `npm run build` – Builds the app for production
-* `npm run eject` – Reveals configuration files (not reversible)
+### `npm start`
 
-Refer to the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started) for more details.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🖼️ Project Screenshots
+### `npm test`
 
-Here are some snapshots of our project in action:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## 📚 Learn More
+### `npm run eject`
 
-* [React Documentation](https://reactjs.org/)
-* [Create React App Docs](https://facebook.github.io/create-react-app/docs/getting-started)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
----
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 📬 Contact
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-For any issues or suggestions, feel free to reach out to the development team.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Note 
+## Learn More
 
-This is a modified version of my private project. All changes are my own.
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
----
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
