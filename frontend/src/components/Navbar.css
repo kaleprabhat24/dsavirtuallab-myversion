@@ -1,0 +1,51 @@
+/* Navbar.css */
+
+/* Top section for logo and university title */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    position: relative;  /* Make sure it's relative so other components follow it */
+    z-index: 10;  /* Ensure this stays on top */
+    height: 100px; /* Explicit height for the header section */
+}
+
+.logo-img {
+    height: 80px;
+    width:400px; /* Adjust logo height */
+}
+
+.badge-img {
+    height: 80px;
+    width:70px;
+}
+
+/* Navigation bar directly below the top section */
+.navbar {
+    background-color: #ffa500;
+    padding: 15px 0;
+    text-align: left;
+    height: 50px;  /* Explicit height for navbar */
+    position: relative;  /* Ensure navbar stays below the header top */
+    z-index: 10; /* Higher than sidebar */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 40px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    color: black;
+}

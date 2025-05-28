@@ -1,0 +1,14 @@
+{
+  "name": "dsavirtuallab",
+  "version": "1.0.0",
+  "description": "Creating virtual labs for learning data structures and algorithmms in interactive and engaging way",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lucide-react": "^0.453.0"
+  }
+}

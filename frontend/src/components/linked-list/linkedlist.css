@@ -1,0 +1,275 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Content Box */
+.content-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.content-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific Styles for Content Paragraphs */
+.content-box p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+  font-size: 16px;
+  color: #555;
+  text-align: left;
+}
+
+/* Image Styling */
+img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Real Life Applications List Styling */
+.content-box ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+
+.content-box ul li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+  line-height: 1.8;
+  position: relative;
+  padding-left: 20px;
+}
+
+.content-box ul li:before {
+  content: '•';
+  color: #007BFF;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Heading for Real Life Applications */
+.content-box h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #007BFF;
+  text-align: center;
+}
+
+/* Subheading for Sections */
+.content-box h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: left;
+}
+
+/* Styling Submit Button */
+button {
+  background: linear-gradient(90deg, #007BFF, #0056b3);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  display: inline-block;
+  text-align: center;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #0056b3, #003d7a);
+  transform: scale(1.05);
+}
+
+/* Container for the whole component */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the input fields */
+.input-group {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.input-field {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin-right: 10px;
+  width: 70%;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #007BFF;
+}
+
+.action-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-left: 5px;
+  flex: 1;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Linked list container */
+.linked-list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Node styling */
+.node {
+  padding: 10px 15px;
+  background-color: #e7f1ff;
+  border: 1px solid #007BFF;
+  border-radius: 25px;
+  margin: 0 5px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Arrow styling */
+.arrow {
+  font-size: 24px;
+  margin: 0 5px;
+  color: #007BFF;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* src/components/linked-list/linkedlist.css */
+.linked-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.instructions {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.Visualisation {
+  display: flex;
+  align-items: center;
+}
+
+.Node {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 25px;
+  text-align: center;
+  min-width: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.arrow {
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+/* Background for body */
+body {
+  background: linear-gradient(135deg, #f4f7f6 25%, #e1e8ed 100%);
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.content-box {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+.content-box h2 {
+  margin-top: 0;
+}
+
+.content-box p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.start-quiz-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-bottom: 20px; /* Space below the button */
+}
+
+.start-quiz-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

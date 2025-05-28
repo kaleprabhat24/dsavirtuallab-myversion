@@ -1,0 +1,39 @@
+.slider {
+    position: relative;
+    width: 100%; /* Full width of the screen */
+    height:80vh; /* Ensure the slider takes 70% of the viewport height */
+    overflow: hidden; /* Hide any overflow */
+    display: flex;
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+}
+
+.slider img {
+    width: 80%; /* Make sure the image takes the full width */
+    height: 100%; /* Force the image to take the full slider height */
+    object-fit: cover; /* Ensure the image fills the container without stretching */
+    display: block; /* Ensure images are block-level to avoid spacing issues */
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 121, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slider button:hover {
+    background-color: rgba(255, 121, 0, 1);
+}
+
+.slider button:nth-child(1) {
+    left: 10px; /* Position the previous button */
+}
+
+.slider button:nth-child(3) {
+    right: 10px; /* Position the next button */
+}

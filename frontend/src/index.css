@@ -1,0 +1,131 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Overall Theme */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background-color: #ff7900; /* Orange header bar */
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header img {
+  width: 50px; /* Adjust image size */
+  vertical-align: middle;
+}
+
+/* Navigation Menu */
+nav {
+  background-color: #ff7900;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Content - Virtual Lab */
+.main-content {
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5; /* Light grey background */
+}
+
+.main-content h2 {
+  font-size: 28px;
+  color: #007bff; /* Blue color for headers */
+  margin-bottom: 20px;
+}
+
+/* Links for Data Structure Lab */
+.lab-list a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.lab-list a:hover {
+  text-decoration: underline;
+}
+
+.lab-list {
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.lab-list li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #ff7900;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+footer .contact-info {
+  margin: 10px 0;
+}
+
+footer .contact-info p {
+  margin: 5px 0;
+}
+
+/* Search Bar */
+.search-bar {
+  padding: 10px;
+  text-align: right;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

@@ -1,0 +1,140 @@
+/* Sidebar Styles */
+/* Sidebar Styles */
+.sidebar {
+  width: 250px; /* Fixed width for sidebar */
+  background-color: #ffffff; /* White background for sidebar */
+  padding: 10px; /* Padding for sidebar content */
+  border-right: 1px solid #ddd; /* Border for separation */
+  height: calc(100vh - 150px); /* Full height minus header/nav */
+  position: fixed; /* Keep sidebar fixed on the page */
+  top: 150px; /* Offset from the top to account for header and nav */
+  left: 0; /* Stick to the left */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+  z-index: 1; /* Ensure it stays on top of main content */
+}
+
+.sidebar h3 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.progress-container {
+  margin-bottom: 20px; /* Space for other sidebar elements */
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  height: 20px;
+  margin-bottom: 10px; /* Space for progress text */
+}
+
+.progress {
+  background-color: #76c7c0;
+  height: 100%;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  line-height: 20px; /* Center text vertically */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #eee;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  background-color: #ddd;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  font-size: 1rem;
+  transition: font-size 0.3s; /* Smooth transition for text resizing */
+}
+
+.sidebar ul li a.active {
+  color: orange;
+  font-weight: bold;
+}
+
+/* Collapsed Sidebar */
+.sidebar.collapsed {
+  width: 60px; /* Shrink width when collapsed */
+  transition: width 0.3s ease-in-out; /* Smooth collapse */
+}
+
+.sidebar.collapsed h3 {
+  display: none; /* Hide the title when collapsed */
+}
+
+.sidebar.collapsed ul li a {
+  font-size: 0.8rem; /* Smaller font size when collapsed */
+}
+
+.sidebar.collapsed ul li a span {
+  display: none; /* Hide text labels in collapsed mode */
+}
+
+.menu-toggle {
+  display: none; /* Hidden by default on larger screens */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem; /* Larger size for mobile */
+  color: #333; /* Dark color for toggle button */
+}
+
+/* Media Queries for Smaller Screens */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 60px; /* Sidebar minimized by default on small screens */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .sidebar.collapsed {
+    width: 60px; /* Keep the sidebar collapsed on small screens */
+  }
+
+  .sidebar h3 {
+    display: none; /* Hide sidebar headings */
+  }
+
+  .sidebar ul li a {
+    font-size: 0.8rem; /* Smaller font size for mobile */
+    padding: 5px;
+  }
+
+  .content {
+    margin-left: 60px; /* Adjust content margin for small sidebar */
+  }
+
+  .menu-toggle {
+    display: block; /* Show the toggle button on small screens */
+  }
+}
+
+/* Sidebar Toggle Button */
+.menu-toggle {
+  background: none;
+  border: none;
+  color: #333; /* Button color */
+  cursor: pointer;
+}
+

@@ -1,0 +1,150 @@
+/* Container for the entire component */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Headings Styling */
+h1, h2, h3 {
+  color: #333; /* Darker color for headings */
+  margin: 10px 0; /* Spacing for headings */
+}
+
+/* Main Heading */
+h1 {
+  font-size: 2.5rem; /* Size for main heading */
+  font-weight: 700; /* Bold weight */
+}
+
+/* Subheading */
+h2 {
+  font-size: 2rem; /* Size for subheading */
+  font-weight: 600; /* Semi-bold weight */
+}
+
+/* Minor Heading */
+h3 {
+  font-size: 1.5rem; /* Size for minor heading */
+  font-weight: 500; /* Medium weight */
+}
+
+/* Text Styling */
+p {
+  font-size: 1rem; /* Default text size */
+  color: #666; /* Lighter color for text */
+  line-height: 1.5; /* Improve readability */
+  margin: 0 0 15px; /* Spacing below paragraphs */
+}
+
+/* Tree Visualization Container */
+.tree-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Tree Level Styling */
+.tree-level {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px; /* Space between levels */
+}
+
+/* Node Styling */
+.node {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007BFF;
+  color: white;
+  margin: 0 20px; /* Space between sibling nodes */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+
+/* Arrows between nodes */
+.arrows {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-level {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: -20px; /* Overlap arrows with nodes */
+}
+
+.arrow {
+  font-size: 24px; /* Arrow size */
+  color: #333; /* Arrow color */
+}
+
+/* Button Styling */
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .tree-level {
+    flex-direction: column;
+  }
+
+  .node {
+    margin: 10px 0;
+  }
+}
+
+/* Iframe Container */
+.iframe-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if necessary */
+  margin: 20px; /* Optional: add some margin around the container */
+}
+
+/* Additional styles for better text appearance */
+strong {
+  color: #007BFF; /* Highlight strong text */
+}
+.start-quiz-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-bottom: 20px; /* Space below the button */
+}
+
+.start-quiz-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

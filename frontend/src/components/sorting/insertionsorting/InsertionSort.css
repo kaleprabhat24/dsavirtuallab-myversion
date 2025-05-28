@@ -1,0 +1,342 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+/* Title Styling */
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+
+/* Input field and button alignment */
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 70%;
+  font-size: 16px;
+}
+
+
+.action-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-left: 5px;
+}
+
+
+.action-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
+/* Button group for start, reset, and step buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+
+/* First button style block */
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+} /* Closing brace added here */
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+button:focus {
+  outline: 3px solid #0056b3;
+}
+
+
+/* Content Box */
+.content-box {
+  border: 1px solid #ddd; /* Add border to content box */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  margin-top: 10px; /* Margin to separate from the navbar */
+  background-color: #f9f9f9; /* Light background for readability */
+  text-align: left;
+}
+
+
+/* Specific Styles for Content Paragraphs */
+.content-box p {
+  margin-bottom: 15px; /* Space between paragraphs */
+  line-height: 1.6; /* Better line spacing */
+  font-size: 16px; /* Font size for readability */
+  color: #666; /* Text color */
+  text-align: left; /* Align text to the left */
+}
+
+
+/* Image Styling */
+img {
+  width: 50%;
+  height: 50%;
+  margin: 10px 0; /* Margin to separate from text */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ddd; /* Add border */
+}
+
+
+/* Real Life Applications List Styling */
+.content-box ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove default padding */
+  margin-bottom: 15px;
+}
+
+
+/* Each List Item Styling */
+.content-box ul li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px; /* Space between list items */
+  line-height: 1.6;
+}
+
+
+/* Heading for Real Life Applications */
+.content-box h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333; /* Darker color for better readability */
+}
+
+
+/* Styling Submit Button (2nd button style block, now separate) */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-left: 5px;
+}
+
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* Each array element styling */
+.array-element {
+  flex: 0 0 60px; /* Set a fixed width for a square shape */
+  height: 60px; /* Fixed height for uniformity */
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #e7f1ff;
+  border: 1px solid #007BFF;
+  border-radius: 4px;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Arrow styling */
+.arrow {
+  font-size: 24px;
+  color: #007BFF;
+  margin: 0 5px; /* Adjusts spacing between arrow and elements */
+}
+
+
+/* Optional: Align arrows better */
+.array-visualization {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+
+.array-visualization .arrow {
+  display: flex;
+  align-items: center; /* Ensure the arrow is centered */
+}
+
+
+/* Step counter */
+.step-counter {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+/* Placeholder for empty array */
+.array-placeholder {
+  font-style: italic;
+  font-size: 18px;
+  color: #666;
+}
+
+
+/* Error message styling */
+.error-message {
+  color: red;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+
+/* Each step's array displayed in a horizontal row */
+.array-visualization {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between squares */
+}
+
+
+/* Color for unsorted elements (blue) */
+.square.blue {
+  background-color: #007BFF;
+  color: white;
+}
+
+
+/* Color for the current element being sorted (red) */
+.square.red {
+  background-color: #FF5733;
+  color: white;
+}
+
+
+/* Color for sorted elements (green) */
+.square.green {
+  background-color: #28a745;
+  color: white;
+}
+
+
+/* Each square (common styles for all elements) */
+.square {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  margin: 0 5px; /* Space between squares */
+}
+
+
+/* Container for all steps */
+.visualizer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Space between each step */
+}
+
+
+.step-box {
+  text-align: center;
+}
+.card-sorting-point {
+  display: flex;
+  align-items: flex-start; /* Aligns the image to the top of the text */
+  margin-bottom: 10px;
+  gap: 20px; /* Adds space between the text and the image */
+}
+
+
+.card-sort-image {
+  width: 200px;  /* Increased the image size */
+  height: auto;
+  border-radius: 5px;  /* Optional: adds rounded corners for a nicer look */
+}
+
+
+ul {
+  padding-left: 20px; /* Adds proper indentation to the bullet points */
+}
+
+
+strong {
+  display: inline-block;  /* Ensures the heading and text appear properly aligned in one line */
+}
+.section-with-image {
+  display: flex;
+  align-items: flex-start; /* Aligns the image and text properly */
+  gap: 20px; /* Adds space between text and image */
+  margin-bottom: 20px; /* Adds space after the section */
+}
+
+
+.sort-image {
+  width: 250px; /* Adjust the width of the image */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 5px; /* Optional: rounded corners */
+}
+
+
+ul {
+  padding-left: 20px; /* Proper indentation for bullet points */
+}
+
+
+h3 {
+  margin-top: 20px; /* Adds spacing before each section */
+}
+.iframe-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if necessary */
+  margin: 20px; /* Optional: add some margin around the container */
+}
+
+
+
+
+
+

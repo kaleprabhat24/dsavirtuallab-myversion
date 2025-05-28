@@ -1,0 +1,283 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Overall Theme */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Light background for better contrast */
+  color: #333; /* Default text color */
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  min-height: 100vh; /* Ensure body takes at least the full height of the viewport */
+}
+
+/* Header */
+header {
+  background-color: #ff7900; /* Orange header bar */
+  color: black; /* Consistent text color */
+  padding: 15px 0;
+  text-align: center; /* Center the header text */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header img {
+  width: 50px; /* Adjust image size */
+  vertical-align: middle;
+}
+
+/* Navigation Menu */
+nav {
+  background-color: #ff7900; /* Consistent navigation background */
+  padding: 10px;
+  text-align: center; /* Center the nav items */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s; /* Smooth transition for hover */
+}
+
+nav ul li a:hover {
+  color: #ffd700; /* Gold color on hover for contrast */
+}
+
+.container {
+  text-align: left; /* Align all text inside the container to the left */
+}
+
+/* Main Layout Styles */
+.App {
+  display: flex; /* Flexbox for main layout */
+  flex-direction: column; /* Column direction for stacking */
+  flex: 1; /* Allow App to grow */
+}
+
+/* Main Layout for Content and Sidebar */
+.main-layout {
+  display: flex; /* Flexbox for sidebar and content */
+  flex: 1; /* Take up remaining space */
+  overflow: hidden; /* Prevent overflow */
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px; /* Fixed width for sidebar */
+  background-color: #ffffff; /* White background for sidebar */
+  padding: 10px; /* Padding for sidebar content */
+  border-right: 1px solid #ddd; /* Border for separation */
+  height: calc(100vh - 150px); /* Full height minus header/nav */
+  position: fixed; /* Keep sidebar fixed on the page */
+  top: 150px; /* Offset from the top to account for header and nav */
+  left: 0; /* Stick to the left */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+  z-index: 1; /* Ensure it stays on top of main content */
+}
+
+/* Main Content Styles */
+.main-content {
+  flex-grow: 1; /* Allow main content to fill available space */
+  padding: 0 20px; /* Adjusted padding for main content */
+  margin-left: 250px; /* Make room for the sidebar */
+  background-color: #ffffff; /* White background for main content */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+  margin-top: 10px; /* Add margin to move content box up */
+}
+
+.button-container {
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  margin-top: 20px; /* Add some space above the button */
+}
+
+.submit-button {
+  background-color: #ff7900; /* Orange background for the button */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  padding: 12px 24px; /* Add padding */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+.submit-button:hover {
+  background-color: #e66800; /* Darker shade on hover */
+  transform: translateY(-2px); /* Subtle lift effect on hover */
+}
+
+/* Content Box */
+.content-box {
+  border: 1px solid #ddd; /* Add border to content box */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  margin-top: 10px; /* Margin to separate from the navbar */
+  text-align: left;
+}
+
+/* Specific Styles for Content Paragraphs */
+.content-box p {
+  margin-bottom: 15px; /* Space between paragraphs */
+  line-height: 1.6; /* Better line spacing */
+  font-size: 16px; /* Font size for readability */
+  color: #666; /* Text color */
+  text-align: left; /* Align text to the left */
+}
+
+/* Footer */
+footer {
+  background-color: #ff7900;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: auto; /* Ensure footer stays at bottom */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+footer a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+/* Home Page Styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Slider Styles */
+.slider {
+  position: relative;
+  width: 100%; /* Full width of the screen */
+  height: 500px; /* Set a fixed height for the slider */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.slider img {
+  width: 100%; /* Image takes full width of the slider */
+  height: 100%; /* Image takes full height of the slider */
+  object-fit: cover; /* Scale image to fill the container */
+  display: block; /* Remove inline spacing */
+}
+
+/* Home Page Styles */
+.home-content {
+  flex: 1; /* Ensure content fills available space */
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: flex-start; /* Align to the start */
+  align-items: center; /* Center content horizontally */
+}
+
+.home-content h2 {
+  font-size: 22px; /* Section title size */
+  margin-bottom: 20px; /* Increased space below titles */
+}
+
+.home-content p {
+  font-size: 16px; /* Font size for paragraphs */
+  color: #666; /* Text color */
+  margin-top: 0; /* Reset margin-top if needed */
+}
+
+/* Home Header */
+.home-header {
+  background-color: #ff7900; /* Header background */
+  color: white; /* Text color */
+  padding: 20px;
+  text-align: center; /* Centered text */
+}
+
+/* Video Section Styles */
+.video-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center all content */
+  text-align: center; /* Center text */
+  margin: 20px 0;
+}
+
+.video-container {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space between text and video */
+  width: 80%; /* Set width for video container */
+}
+
+.video-text {
+  flex: 1; /* Allow text sections to take up equal space */
+  margin: 0 20px; /* Add margin between text and video */
+}
+
+/* Lab Objectives Styles */
+.lab-objectives {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for objectives section */
+  border: 1px solid #ddd; /* Border around objectives */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Total Participants Styles */
+.total-participants {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background */
+  border: 1px solid #ddd; /* Border around participants section */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none; /* Hide sidebar on smaller screens */
+  }
+
+  .main-layout {
+    flex-direction: column; /* Stack content vertically when sidebar is hidden */
+  }
+
+  nav ul li {
+    display: block; /* Stack links on smaller screens */
+    margin: 10px 0; /* Space between links */
+  }
+
+  .main-content {
+    padding: 10px; /* Adjust padding for smaller screens */
+    margin-left: 0; /* No need for left margin when sidebar is hidden */
+  }
+
+  .slider {
+    height: 300px; /* Adjust slider height for smaller screens */
+  }
+}

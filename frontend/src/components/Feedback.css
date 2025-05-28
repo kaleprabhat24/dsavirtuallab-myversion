@@ -1,0 +1,102 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container for the form */
+  .container {
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form title */
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Labels and input fields */
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Styling for radio buttons */
+  .radio-group {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+  }
+  
+  .radio-group label {
+    margin-right: 20px;
+    font-size: 14px;
+  }
+  
+  /* Textarea styling */
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  /* Submit and Reset buttons */
+  .submit-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .submit-group input[type="submit"],
+  .submit-group input[type="reset"] {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-group input[type="reset"] {
+    background-color: #dc3545;
+  }
+  
+  .submit-group input:hover {
+    opacity: 0.9;
+  }
+  
+  /* Make the form responsive */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    .submit-group {
+      flex-direction: column;
+    }
+  }
+  
