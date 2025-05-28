@@ -14,6 +14,7 @@ The lab includes a wide range of features to support learners at every stage:
 * 🌐 **Application-Oriented Examples** bridging theory and real-world usage
 * 📚 **Conceptual Reading Modules** for deep theoretical insight
 * 🎥 **Video-Based Explanations** for every major topic to aid visual learners
+  (demo video :- https://youtu.be/CiuiygE3LHo?si=9FdYIjdCn456ezBa )
 
 This lab goes beyond traditional learning, making DSA not just easier to understand—but also engaging and fun to master.
 
