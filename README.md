@@ -149,7 +149,7 @@ In the project directory, you can run:
 
 Refer to the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started) for more details.
 
-
+---
 
 ## 📚 Learn More
 
