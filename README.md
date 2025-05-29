@@ -34,6 +34,14 @@ Then, open [http://localhost:3000](http://localhost:3000) in your browser to beg
 
 ---
 
+## 🎥 Video demoing the functioning of the project
+
+Watch this video to understand the fuctioning of the project:
+
+[![Watch the video](https://img.youtube.com/vi/KwpBCZv5jhI/0.jpg)](https://www.youtube.com/watch?v=KwpBCZv5jhI)
+
+---
+
 ## 🎥 Introductory Video
 
 Watch this video to understand the lab's purpose and features:
